@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.tesco_header{
+    background: #00539f;
+    padding: 20px;
+    height:32px
+}
+
+.tesco_logo{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 4px solid #00539f;
+    border-bottom: 2px solid #cccccc;
+    background: #fff;
+}
+section{
+    max-width: 1366px;
+    margin:0 auto
+}
+.center_txt {
+    text-align: center;
+}
+.center-container{
+    min-height: 80vh;
+    max-height: 100%;
+    box-shadow: 0 0.25rem 0.75rem rgb(0 0 0 / 5%);
+}
+
+.tesco_font{
+    font-family: sans-serif;
+    color:#00539f;
+    font-size: 16px;
+    font-weight:700;
+
+}
+#sel1{
+    width: 100%;
+}
+.tesco_form-center
+{
+    margin:0 auto;
+    width:40%;
+
+}
+
+.vh-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    line-height: 60px;
+}
+
+.card{
+    width:100%;
+    border: 0px solid rgba(0,0,0,.125);
+}
+
+
+.secion-wrapper{
+    background-color: white;
+    border: 1px solid #e5e5e5;
+    width: 600px;
+    margin: 0 auto;
+    padding: 0 24px 50px;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0;
+
+    .row {
+        margin: 0;
+        padding: 0;
+    }
+}
+.sign-up-section, .login-section {
+    background-color: #f6f6f6;
+    margin-top: 50px;
+}
+.sign-up-section .signup-title, .login-section .signup-title, .sign-up-section .login-title, .login-section .login-title {
+    width: 600px;
+    margin: 0 auto;
+}
+
+h1.heading {
+    line-height: 40px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #00539f;
+    font-size: 39px;
+    line-height: 39px;
+    padding-bottom: 5px;
+}
+
+.sign-up-section .form-container, .login-section .form-container {
+    background-color: white;
+    border: 1px solid #e5e5e5;
+    width: 600px;
+    margin: 0 auto;
+    padding: 0 24px 50px;
+}
+
+.sign-up-section .form-container .form, .login-section .form-container .form {
+    padding-top: 40px;
+}
+
+.sign-up-section .welcome, .login-section .welcome {
+    width: 540px;
+    margin-top: 15px;
+    margin-bottom: 44px;
+}
